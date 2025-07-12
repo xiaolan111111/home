@@ -107,13 +107,13 @@ onMounted(() => {
   const styleTitle1 = "font-size: 20px;font-weight: 600;color: rgb(244,167,89);";
   const styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
   const styleContent = "color: rgb(30,152,255);";
-  const title1 = "MiFengの主页";
+  const title1 = "Xianlan's Home";
   const title2 = `
-  __  __  _  _____  _____  _   _   ____ 
- |  \\/  |(_)|  ___|| ____|| \\ | | / ___|
- | |\\/| || || |_   |  _|  |  \\| || |  _ 
- | |  | || ||  _|  | |___ | |\\  || |_| |
- |_|  |_||_||_|    |_____||_| \\_| \\____|`;
+ __  __  _                   _                 
+ \\ \\/ / (_)   __ _   _ __   | |   __ _   _ __  
+  \\  /  | |  / _\` | | '_ \\  | |  / _\` | | '_ \\ 
+  /  \\  | | | (_| | | | | | | | | (_| | | | | |
+ /_/\\_\\ |_|  \\__,_| |_| |_| |_|  \\__,_| |_| |_|`;
   const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
